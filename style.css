@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 24, 2015, 4:03:48 PM
+    Author     : omur.alcin
+*/
+body{  
+    background-color:#8dc;
+    font-family: sans-serif;
+}
+.color2{
+    box-shadow: 0px 5px 53px 3px #eef;
+}
+.color3{ 
+    background-color:#adf; 
+}
+.color4{
+    background-color:#fff;
+}
+.switch{
+     background-image: url("img/switch-on-icon.png");
+     background-repeat: no-repeat;
+     width:60px;
+     height: 40px;
+}
+.switch2{
+     background-image: url("img/switch-off-icon.png");
+     background-repeat: no-repeat;
+     width:60px;
+     height: 40px;
+}
+ 
+#wrapper-out{
+    
+    margin: 0px auto;
+    width:1200px;
+    height: 1453px;  
+}
+#header{
+    margin:5px auto;
+    width:1200px;
+    height: 88px;
+    background-color: #fff;
+}
+#header:hover{
+    box-shadow: 0px 5px 53px 17px #eef;
+}
+#logo{ 
+    padding-left: 7px;
+    padding-top: 7px;
+    margin:5px 5px 5px 5px;
+    float:left;
+    width:225px;
+    height:80px;
+}
+.logo_description{
+    margin:13px auto;
+    font-size:33px;
+    float:left;
+    color:#4ca; 
+}
+.color1{
+    background-color: #fff;
+}
+.color2{
+    background-color: #cdf;
+}
+#search-box{
+    margin-left: 120px;
+    margin-top: 20px;
+    float: left;
+    width: 320px;
+    height: 48px;  
+}
+.search-box{ 
+    padding-left: 7px;
+    font-size: 20px;
+    float:left;
+    width: 250px;
+    height: 48px;
+}
+#search-box input ,select ,textarea{
+    color:#AAA;
+}
+.search-box_button{ 
+    background-image:url("img/search.png");  
+    background-repeat:no-repeat;
+    float:left;  
+}
+.menu{ 
+    margin-right:15px;
+    margin-top:22px;
+    float:right;
+    width: 500px;
+    height: 50px;
+    background-color: #fff;
+}
+.menu ul{
+    list-style-type:none;
+    margin: 3px 0px 0px 0px; 
+}
+.menu li{
+    display: inline; 
+    background-color:#fff;
+    margin-left: 0px;
+}
+.menu li:hover{ 
+    background-color:#4bf; 
+}
+
+#body{
+    padding:0px;
+    width: 1200px;
+    height: 1100px;
+    background-color: #fff;
+}
+#dashboard{ 
+    float:left;
+    background-repeat: no-repeat; 
+    margin:5px 5px 5px 50px;
+    width:94%;
+    height:550px; 
+}
+#accordion{
+    float:left;
+    width: 280px;
+    height:500px;
+}
+#wrapper-in{
+    float:left;
+    margin-left: 35px;
+    width: 1130px;
+    height: 450px; 
+    background-color: #eee;
+}
+.content-box{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+    width: 30px;
+    height: 540px;
+    float:left;
+    background-color: #fc4;
+}
+.content-box:hover{ 
+    width: 160px;
+    height: 540px;
+    float:left;
+    background-color: #fc4;
+}
+  
+#footer{
+    float:left;
+    background-color: #ccc;
+    height: 270px;
+}
+#footer-body{
+    float:left;
+    background-color:#eee;
+    width: 1200px;
+    height: 190px;
+}
+.footer-content-box{
+    margin:25px; 
+    float: left;
+    background-color:#adf; 
+    height:150px;
+    width: 350px;
+}
+#footer-sign{
+     
+    margin:10px 10px 10px 25px;
+    float:left;
+    background-color:#aaa;
+    height:50px;
+    width:320px;
+}
+#footer-sign p{
+    color:#ccc;
+    font-size: 16px;
+    float:left;
+    margin:15px 0px 0px 15px;
+}
+
+#footer-menu{
+    margin:10px 25px 0px 0px ;
+    float: right; 
+    background-color:#aaa;
+    height:50px;
+    width: 390px;
+}
+a:link {
+    color: #cdf;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="fa-icons/css/font-awesome.css">
+        <script src="script.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".switch").click(function () {
+                    $(this).toggleClass('switch2');
+                    $("wrapper-out").toggleClass('color3');
+                    $("body").toggleClass('color4');
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <div class="switch switch2"></div>
+        <div id="wrapper-out" class="color2">
+            <div id="header">
+                <div id="logo">
+                    <a href="#"><img style="float:left" src="img/brain_logo.png" />
+                    <p class="logo_description">Dual Brain</p></a>
+                </div>
+                <div id="search-box">
+                    <form action="#">
+                        <input class="search-box" type="text" placeholder="Ara" name="fname">  
+                        <a href="#"><em style="padding-left:9px; font-size:45px;color:#fe6;" class="fa fa-search"></em></a>
+                    </form>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/1.png"/></a></li>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/2.png"/></a></li>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/3.png"/></a></li>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/4.png"/></a></li>
+                        <li>&nbsp;</li>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/9.png"/></a></li>
+                        <li>&nbsp;</li>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/5.png"/></a></li>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/6.png"/></a></li>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/7.png"/></a></li>
+                        <li><a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/8.png"/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="body">
+                <div id="dashboard">
+                    <div id="accordion">
+                        <div style="background-color: #2cc;" class="content-box">
+                            <a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/1.png"/></a><p style="color:#fff;"><b>Physics</b></p>
+                            <p style="color:#fff;">
+                                In publishing and graphic design, lorem ipsum is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation. 
+                            </p>
+                        </div>
+                        <div style="background-color: #2ca;" class="content-box">
+                            <a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/2.png"/></a><p style="color:#fff;"><b>Chemical</b></p>
+                            <p style="color:#fff;">
+                                The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC Latin text by Cicero, with words altered.
+                            </p>
+                        </div>
+                        <div style="background-color: #7cf;" class="content-box">
+                            <a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/3.png"/></a><p style="color:#fff;"><b>Research</b></p>
+                            <p style="color:#fff;">
+                                A variation of the ordinary lorem ipsum text has been used in typesetting since the 1960s or earlier, when it was popularized
+                            </p>
+                        </div>
+                        <div style="background-color: #2cd;" class="content-box">
+                            <a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/4.png"/></a><p style="color:#fff;"><b>Compute</b></p>
+                            <p style="color:#fff;">
+                                The original passage began: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+                            </p>
+                        </div>                       
+                    </div>
+                     <img style="float:left" src="img/brain.png" usemap="#skills">
+                    <map name="skills">
+                        <area shape="poly" coords="158,94,180,99,192,111,204,132,203,157,193,174,176,186,161,188,137,184,119,172,109,152,110,133,121,109,136,97" alt="physics" href="#"/>
+                        <area shape="poly" coords="75,199,96,208,120,227,122,267,103,288,82,295,58,295,41,281,30,265,27,235,42,212,57,202" alt="chemical" href="#"/>
+                        <area shape="poly" coords="87,333,105,341,117,354,123,375,121,398,111,414,93,422,65,426,42,411,28,375,34,351,51,339,70,331" alt="research" href="#"/>
+                        <area shape="poly" coords="209,429,224,446,227,470,220,492,199,505,172,510,144,495,131,476,130,460,136,443,145,432,156,421,174,418,188,416,203,420" alt="compute" href="#"/>
+                        <area shape="poly" coords="336,417,357,416,376,424,389,436,398,459,395,485,378,503,351,513,322,506,308,489,302,468,304,447,310,431" alt="author" href="#"/>
+                        <area shape="poly" coords="473,335,491,350,501,370,500,396,489,409,476,418,458,425,434,421,422,413,410,400,403,383,405,360,423,340,443,332,458,331" alt="music" href="#"/>
+                        <area shape="poly" coords="453,199,482,207,496,226,501,250,495,270,471,290,447,294,423,286,411,272,406,253,405,235,412,221,428,207" alt="theater" href="#"/>
+                        <area shape="poly" coords="366,93,400,101,415,123,416,160,396,184,366,189,344,182,330,167,321,141,328,113,347,97" alt="paint" href="#">
+                    </map>
+                     <div id="accordion">
+                        <div style="float:right;background-color: #c45;" class="content-box">
+                            <a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/8.png"/></a><p style="color:#fff;"><b>Author</b></p>
+                            <p style="color:#fff;">
+                                The original passage began: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+                            </p>
+                        </div>
+                         <div style="float:right;background-color: #c44;" class="content-box">
+                             <a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/7.png"/></a><p style="color:#fff;"><b>Music</b></p>
+                            <p style="color:#fff;">
+                                A variation of the ordinary lorem ipsum text has been used in typesetting since the 1960s or earlier, when it was popularized
+                            </p>
+                         </div>
+                        <div style="float:right;background-color: #c56;" class="content-box">
+                            <a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/6.png"/></a><p style="color:#fff;"><b>Theater</b></p>
+                            <p style="color:#fff;">
+                                The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC Latin text by Cicero, with words altered.
+                            </p>
+                        </div>
+                         <div style="float:right;background-color: #c67;" class="content-box">
+                             <a href="#" ><image style="width:45px;height: 45px;" src="menu-icons/5.png"/></a><p style="color:#fff;"><b>Paint</b></p>
+                            <p style="color:#fff;">
+                                In publishing and graphic design, lorem ipsum is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation. 
+                            </p>
+                         </div>                       
+                    </div>
+                </div>
+                <div id="wrapper-in">
+                    
+                </div> 
+            </div>
+            <div id="footer">
+                <div id="footer-body">
+
+                    <div class="footer-content-box"></div> 
+
+                    <div style="background-color: #fe6;" class="footer-content-box"></div>
+
+                    <div style="background-color: #f99;" class="footer-content-box"></div>
+
+                    <div id="footer-menu"></div>
+
+                    <div id="footer-sign">
+                        <p>CSS by <a href="#">Ömür ALÇİN</a> | Copyright 2015</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
